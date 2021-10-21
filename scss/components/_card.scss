@@ -1,0 +1,15 @@
+.is-box {
+  border: 2px solid;
+  border-image: linear-gradient(
+      0deg,
+      rgba(252, 126, 255, 1) 0%,
+      rgba(99, 158, 248, 1) 100%
+    )
+    1;
+  transition: background-color 1s, border 1s;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  margin: 15px;
+}
