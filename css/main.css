@@ -1,0 +1,144 @@
+body {
+  box-sizing: border-box;
+  margin: 0px; }
+  body * {
+    box-sizing: border-box;
+    font-family: "Ubuntu", sans-serif; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0px; }
+
+h1 {
+  font-size: 48px; }
+
+h3 {
+  font-size: 32px; }
+
+h4 {
+  font-size: 20px; }
+
+.unsplash-logo {
+  width: 40px;
+  height: 40px;
+  color: white; }
+
+.list-icon {
+  width: 25px;
+  height: 25px;
+  margin-right: 20px;
+  color: #639ef8;
+  cursor: pointer; }
+
+.grid-icon {
+  width: 30px;
+  height: 30px;
+  color: #fc7eff;
+  cursor: pointer; }
+
+.is-content {
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid #fc7eff;
+  width: 90%;
+  margin: 15px auto 0px;
+  flex-wrap: wrap; }
+
+.gridder {
+  display: grid;
+  transition: width 2s, height 2s, transform 2s;
+  transform: rotate(180deg); }
+
+.is-box {
+  border: 2px solid;
+  border-image: linear-gradient(0deg, #fc7eff 0%, #639ef8 100%) 1;
+  transition: background-color 1s, border 1s;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  margin: 15px; }
+
+body {
+  width: 100%;
+  height: 100%;
+  min-width: 380px; }
+  body .is-container {
+    width: 100%; }
+  body .is-header {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 90px;
+    background: linear-gradient(90deg, #fc7eff 0%, #639ef8 100%); }
+  body .is-type {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    width: 100%; }
+  body .is-box-profile {
+    display: flex;
+    height: 40px;
+    width: 100%; }
+  body .is-box-profile-pic img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%; }
+  body .is-box-profile-name {
+    padding-left: 10px;
+    font-size: 16px;
+    color: #639ef8; }
+  body .is-box-profile-name-username {
+    font-size: 10px;
+    color: #fc7eff; }
+  body .is-box-img {
+    width: 100%;
+    height: 300px; }
+  body .is-box-img img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%; }
+  body .is-box-img-info {
+    margin-top: 5px;
+    display: flex;
+    font-size: 9px;
+    justify-content: space-evenly; }
+  body .is-social {
+    display: flex;
+    justify-content: space-around;
+    margin: 5px 0px;
+    padding-left: 10px; }
+  body a {
+    display: block;
+    text-decoration: none;
+    width: 20px;
+    height: 20px; }
+  body .only-pad {
+    padding-right: 23px; }
+  body .like-counter {
+    font-size: 13px;
+    width: 50px;
+    display: flex;
+    height: 20px;
+    align-items: flex-end; }
+  body .download-counter {
+    font-size: 13px;
+    width: 55px;
+    display: flex;
+    height: 20px;
+    align-items: center; }
+  body svg {
+    width: 25px;
+    height: 25px;
+    padding-right: 5px; }
+  body .active {
+    display: block;
+    filter: grayscale(1); }
+  body .is-box-profile-name-username a {
+    color: #fc7eff; }

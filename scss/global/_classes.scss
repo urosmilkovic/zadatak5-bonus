@@ -1,0 +1,35 @@
+.unsplash-logo {
+  width: 40px;
+  height: 40px;
+  color: white;
+}
+
+.list-icon {
+  width: 25px;
+  height: 25px;
+  margin-right: 20px;
+  color: #639ef8;
+  cursor: pointer;
+}
+
+.grid-icon {
+  width: 30px;
+  height: 30px;
+  color: #fc7eff;
+  cursor: pointer;
+}
+
+.is-content {
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid $secondary;
+  width: 90%;
+  margin: 15px auto 0px;
+  flex-wrap: wrap;
+}
+
+.gridder {
+  display: grid;
+  transition: width 2s, height 2s, transform 2s;
+  transform: rotate(180deg);
+}
